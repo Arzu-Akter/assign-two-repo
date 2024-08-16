@@ -3,10 +3,44 @@
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400px;
     font-style: normal;
   }
-
-.nav-section{
-    
+  body{
+    background-color: black;
+  }
+/*shared style*/
+.text-orange{
+    color: #E6533C;
 }
+.text-white{
+    color: white;
+}
+.display-flex{
+      display: flex;
+}
+/*header styles*/
+
+/*navbar styles*/
+ 
+.nav-section{
+    color: white;
+    justify-content: space-between;
+}
+.navbar-icon{
+    font-weight: 700px;
+    font-size: 2rem;
+}
+.navbar{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.nav-item, .navlink{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
+
+    
